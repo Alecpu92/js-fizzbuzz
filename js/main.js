@@ -1,6 +1,6 @@
 // elemento contenitore
 const contenitore = document.getElementById("contenitore");
-console.log(contenitore)
+console.log(contenitore);
 
 // operazioni per quadrati da 1 a 100
 for (let i = 1; i <= 100; i++) {
@@ -12,8 +12,8 @@ for (let i = 1; i <= 100; i++) {
     quadrato.classList.add("square");
 
     // valore quadrato
-    quadrato.append(i)
+    quadrato.append(i);
 
     // unione quadrato con contenitore
-    contenitore.append(quadrato)
+    contenitore.append(quadrato);
     }
