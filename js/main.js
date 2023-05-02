@@ -16,4 +16,5 @@ for (let i = 1; i <= 100; i++) {
 
     // unione quadrato con contenitore
     contenitore.append(quadrato);
+    
     }
